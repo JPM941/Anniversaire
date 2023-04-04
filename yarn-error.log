@@ -1,0 +1,33 @@
+Arguments: 
+  /root/.nvm/versions/node/v16.15.1/bin/node /root/.nvm/versions/node/v16.15.1/bin/yarn add bootstrap @popperjs/core
+
+PATH: 
+  /root/.rbenv/versions/3.1.2/bin:/root/.rbenv/libexec:/root/.rbenv/plugins/ruby-build/bin:./bin:./node_modules/.bin:/root/.nvm/versions/node/v16.15.1/bin:/root/.rbenv/shims:/root/.rbenv/bin:/root/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Julie/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Julie/AppData/Local/Programs/Microsoft VS Code/bin:/usr/local/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "app",
+    "private": "true",
+    "scripts": {
+      "build": "webpack --config webpack.config.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
